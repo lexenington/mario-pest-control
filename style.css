@@ -1,0 +1,167 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: #E57373;
+  font-family: 'Philosopher', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  background-color: #E57373;
+}
+.header-img{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+header h1{
+  float: left;
+  width: 30%;
+  padding-left: 5px;
+  color: white;
+  font-size: 2em;
+  margin-top: 25px;
+  text-align: left;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+.nav-links{
+  width: 40%;
+  float: left;
+  text-align: left;
+  font-size: larger;
+  margin-right: 0;
+
+}
+.nav-links a{
+  text-decoration: none;
+  float: left;
+  padding-right: 30px;
+  margin: 38px 0;
+  color: white;
+  display: inline-block;
+  min-width: 140px;
+  height: 50px;
+
+}
+.main{
+  width: 100%;
+  flex: 1;
+
+}
+.side-bar{
+  /*margin-top: 100px;*/
+  float: left;
+  z-index: 0;
+  width: 25%;
+  height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 5px solid #E57373;
+
+}
+.content{
+  background-image: url("img/content.png");
+  background-size: cover;
+  background-clip: content-box;
+  /*margin-top: 100px;*/
+  width: 50%;
+  height: 700px;
+  float: left;
+  border: 5px solid #E57373;
+
+}
+#side-bar-left{
+  margin-left: 0;
+  background-image: url("img/side-bar-2.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: space;
+}
+#side-bar-right{
+  margin-right: 0;
+  background-image: url("img/side-bar-1.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: space;
+}
+.pest{
+  margin: 20px auto;
+  width: 30%;
+  height: 21  0px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: rgba(255, 235, 238, 0.80);
+  font-weight: bolder;
+  font-size: 0.7em;
+  text-align: center;
+}
+.thumbnail{
+  width: 60px;
+  height:  60px;
+  display: block;
+  margin: 15px auto;
+
+}
+div span {
+  font-size: 1.2em;
+  color: #EF5350;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.grand-total{
+  width: 90%;
+  height: 60px;
+  background-color: #FFEBEE;
+  margin: 0 auto;
+  display: flex;
+}
+.p-grand-total{
+  margin: auto;
+}
+p{
+  font-size: 1.2em;
+}
+button{
+  border-radius: 8px;
+  width: 20%;
+  font-size: 15px;
+  padding: 2px;
+  margin: 8px;
+  border: 2px solid #E57373;
+  background-color: #E57373;
+  color: white;
+}
+h2{
+  font-family: 'Fredoka One', cursive;
+}
+.grand-total p {
+text-align: center;
+padding: 13px;
+}
+footer{
+  height: 150px;
+  color: white;
+  line-height: 1.8em;
+}
+div div{
+  border-radius: 40px;
+}
+.foot{
+  display: inline-block;
+  width: 30%;
+}
+#footer-left{
+  text-align: right;
+  border-right: medium solid white;
+
+}
+#footer-right{
+  vertical-align: top;
+}
